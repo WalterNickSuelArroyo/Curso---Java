@@ -37,4 +37,45 @@ Todo codigo Java se compila en un lenguaje intermedio que no es 100% binario, es
 
 ## 6. CREANDO NUESTRA PRIMERA APLICACION
 ## 7. EJEMPLO HOLA MUNDO EN JAVA
+```java
+public class Tarea1 {
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+    }
+}
+```
+
 ## TAREA 1: IMPRIME TU NOMBRE EN CONSOLA
+```java
+public class Tarea1 {
+    public static void main(String[] args) {
+        System.out.println("Walter Nick Suel Arroyo");
+    }
+}
+```
+
+# SECCION 2: VARIABLES
+
+## 8. INTRODUCCION A LAS VARIABLES
+
+## 9. EJEMPLOS DE VARIABLES
+```java
+public class Tarea1 {
+    public static void main(String[] args) {
+        String saludar = "Hola Mundo desde Java";
+        System.out.println(saludar);
+        System.out.println(saludar.toUpperCase());
+
+        int numero = 10;
+        System.out.println(numero);
+
+        boolean valor = true;
+        System.out.println(valor);
+
+        var numero2 = 15;   //El var asigna automaticamente el tipo de dato de la variable
+        System.out.println(numero2);
+    }
+}
+```
+
+## 10. REGLAS PARA DEFINIR UNA VARIABLE
